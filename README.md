@@ -1,16 +1,65 @@
-# weather_application
+🌦️ Mobile Weather Forecast Application (Flutter)
+📘 Project Overview
 
-A new Flutter project.
+This project is a Mobile Weather Forecast Application developed using Flutter as part of the BSc (Hons) Computing (Top-Up) coursework at Kingston University (via ESoft). The application demonstrates the use of Clean Architecture, Riverpod state management, and OpenWeatherMap API integration to deliver real-time and forecast weather data through a modern and user-friendly mobile interface.
 
-## Getting Started
+The app focuses on strong software engineering principles including layered architecture, API consumption, local storage, responsive UI design, and proper error handling, without requiring user authentication.
 
-This project is a starting point for a Flutter application.
+✨ Key Features
 
-A few resources to get you started if this is your first Flutter project:
+🌍 Search weather by city name
+🌡️ Display current temperature, humidity, wind speed, sunrise & sunset
+📅 5-day weather forecast (based on OpenWeatherMap API)
+⭐ Add and manage favourite cities
+💾 Persistent local storage using SharedPreferences
+⚙️ Settings screen for app preferences
+🧭 Bottom navigation with multiple functional screens
+🎨 Material Design–based UI with icons and gradients
+🔁 Reactive UI updates using Riverpod
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+🏗️ Architecture
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The application follows Clean Architecture, separating the codebase into three main layers:
+Presentation Layer – UI screens and Riverpod providers
+Domain Layer – Business logic, entities, and abstract repositories
+Data Layer – API services, repository implementations, and data parsing
+This structure improves maintainability, testability, and scalability.
+
+🔧 Technologies & Libraries Used
+
+Flutter & Dart
+Riverpod – State management
+OpenWeatherMap API – Weather data
+http – API communication
+SharedPreferences – Local persistent storage
+weather_icons – Weather-based icons
+Material Design – UI components
+
+🧪 Testing
+
+The application was tested using manual test cases covering:
+
+API data fetching
+Search functionality
+Favourites management
+State updates
+Navigation flow
+Error handling scenarios
+
+🚀 How to Run the Project
+git clone https://github.com/your-username/weather_application.git
+cd weather_application
+flutter pub get
+flutter run
+
+📦 Build APK
+flutter build apk
+
+📚 Academic Purpose
+This project was developed for educational purposes only to demonstrate mobile application development skills, architecture design, API integration, state management, UI/UX design, and documentation practices.
+
+👤 Author
+
+Santhosh K2600128
+BSc (Hons) Computing (Top-Up)
+Kingston University / ESoft
