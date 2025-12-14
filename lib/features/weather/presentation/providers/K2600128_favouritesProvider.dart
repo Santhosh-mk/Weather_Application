@@ -2,12 +2,12 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 // Persistent favourites provider
-final favouritesProvider = StateNotifierProvider<FavouritesNotifier, List<String>>((ref) {
-  return FavouritesNotifier();
+final favouritesProvider = StateNotifierProvider<K2600128_Favouritesprovider, List<String>>((ref) {
+  return K2600128_Favouritesprovider();
 });
 
-class FavouritesNotifier extends StateNotifier<List<String>> {
-  FavouritesNotifier() : super([]) {
+class K2600128_Favouritesprovider extends StateNotifier<List<String>> {
+  K2600128_Favouritesprovider() : super([]) {
     loadFavourites(); // Load saved favourites on initialization
   }
 

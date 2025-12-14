@@ -4,9 +4,9 @@ import '../providers/K2600128_weather_provider.dart';
 import '../../domain/entity/K2600128_weather.dart';
 import 'package:weather_icons/weather_icons.dart';
 
-class CityDetailsScreen extends ConsumerWidget {
+class K2600128_CitydetailsScreen extends ConsumerWidget {
   final String city;
-  const CityDetailsScreen({super.key, required this.city});
+  const K2600128_CitydetailsScreen({super.key, required this.city});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -25,7 +25,7 @@ class CityDetailsScreen extends ConsumerWidget {
     );
   }
 
-  Widget _buildWeatherContent(Weather weather) {
+  Widget _buildWeatherContent(K2600128_Weather weather) {
     return SingleChildScrollView(
       padding: const EdgeInsets.all(16),
       child: Column(

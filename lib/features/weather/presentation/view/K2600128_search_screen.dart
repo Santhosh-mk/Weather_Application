@@ -3,14 +3,14 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../providers/K2600128_weather_provider.dart';
 import 'package:weather_icons/weather_icons.dart';
 
-class SearchScreen extends ConsumerStatefulWidget {
-  const SearchScreen({super.key});
+class K2600128_SearchScreen extends ConsumerStatefulWidget {
+  const K2600128_SearchScreen({super.key});
 
   @override
-  ConsumerState<SearchScreen> createState() => _SearchScreenState();
+  ConsumerState<K2600128_SearchScreen> createState() => _SearchScreenState();
 }
 
-class _SearchScreenState extends ConsumerState<SearchScreen> {
+class _SearchScreenState extends ConsumerState<K2600128_SearchScreen> {
   final TextEditingController _controller = TextEditingController();
   String? searchedCity;
 

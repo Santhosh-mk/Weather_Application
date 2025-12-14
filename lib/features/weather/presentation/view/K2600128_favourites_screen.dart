@@ -4,14 +4,14 @@ import '../providers/K2600128_favouritesProvider.dart';
 import '../providers/K2600128_weather_provider.dart';
 import 'package:weather_icons/weather_icons.dart';
 
-class favourites_screen extends ConsumerStatefulWidget {
-  const favourites_screen({super.key});
+class K2600128_FavouritesScreen extends ConsumerStatefulWidget {
+  const K2600128_FavouritesScreen({super.key});
 
   @override
-  ConsumerState<favourites_screen> createState() => _FavouritesScreenState();
+  ConsumerState<K2600128_FavouritesScreen> createState() => _FavouritesScreenState();
 }
 
-class _FavouritesScreenState extends ConsumerState<favourites_screen> {
+class _FavouritesScreenState extends ConsumerState<K2600128_FavouritesScreen> {
   final TextEditingController _cityController = TextEditingController();
 
   @override

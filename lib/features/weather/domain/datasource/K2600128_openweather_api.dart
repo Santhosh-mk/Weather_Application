@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 
-class K2600128_OpenweatherApi {
+class K2600128_openweather_api {
   final String apiKey = '75afb1ca5564156c5ded8b4819a742d9';
 
   // Fetch current weather

@@ -7,22 +7,22 @@ import 'package:weather_icons/weather_icons.dart';
 import 'K2600128_search_screen.dart';
 import 'K2600128_citydetails_screen.dart';
 
-class HomeScreen extends ConsumerStatefulWidget {
-  const HomeScreen({super.key});
+class K2600128_HomeScreen extends ConsumerStatefulWidget {
+  const K2600128_HomeScreen({super.key});
 
   @override
-  ConsumerState<HomeScreen> createState() => _HomeScreenState();
+  ConsumerState<K2600128_HomeScreen> createState() => _HomeScreenState();
 }
 
-class _HomeScreenState extends ConsumerState<HomeScreen> {
+class _HomeScreenState extends ConsumerState<K2600128_HomeScreen> {
   int _currentIndex = 0;
 
   final List<Widget> _pages = [
     const HomeContent(),
-    const SearchScreen(),       
-    const favourites_screen(),
-    CityDetailsScreen(city: "Colombo"),
-    const SettingsScreen()
+    const K2600128_SearchScreen(),       
+    const K2600128_FavouritesScreen(),
+    K2600128_CitydetailsScreen(city: "Colombo"),
+    const K2600128_SettingsScreen()
       ];
 
   @override

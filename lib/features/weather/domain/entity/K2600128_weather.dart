@@ -1,4 +1,4 @@
-class Weather {
+class K2600128_Weather {
   final String city;
   final double temp;
 
@@ -8,7 +8,7 @@ class Weather {
   final String? sunset;
   final List<DailyWeather>? daily; 
 
-  Weather({
+  K2600128_Weather({
     required this.city,
     required this.temp,
     this.humidity,

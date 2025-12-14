@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../providers/K2600128_settings_provider.dart';
 import '../providers/K2600128_favouritesProvider.dart';
-class SettingsScreen extends ConsumerWidget {
-  const SettingsScreen({super.key});
+
+class K2600128_SettingsScreen extends ConsumerWidget {
+  const K2600128_SettingsScreen({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
