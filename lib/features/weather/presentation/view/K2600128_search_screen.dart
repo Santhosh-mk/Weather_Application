@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import '../providers/weather_provider.dart';
+import '../providers/K2600128_weather_provider.dart';
 import 'package:weather_icons/weather_icons.dart';
 
 class SearchScreen extends ConsumerStatefulWidget {

@@ -1,11 +1,11 @@
-import 'package:weather_application/features/weather/data/datasource/openweather_api.dart';
-import '../../domain/entity/weather.dart';
+import 'package:weather_application/features/weather/data/datasource/K2600128_openweather_api.dart';
+import '../entity/K2600128_weather.dart';
 
-class WeatherRepository {
-  final openweather_api api;
-  WeatherRepository(this.api);
+class K2600128_WeatherRepository {
+  final K2600128_OpenweatherApi api;
+  K2600128_WeatherRepository(this.api);
 
-  Future<Weather> getWeather(String city) async {
+  Future<K2600128_Weather> getWeather(String city) async {
     // Fetch current weather
     final data = await api.fetchCurrentWeather(city);
 
@@ -18,7 +18,7 @@ class WeatherRepository {
       humidity: d['humidity'],
     )).toList();
 
-    return Weather(
+    return K2600128_Weather(
       city: city,
       temp: data['temp'].toDouble(),
       humidity: data['humidity'],

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'features/weather/presentation/view/home_screen.dart';
+import 'features/weather/presentation/view/K2600128_home_screen.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});

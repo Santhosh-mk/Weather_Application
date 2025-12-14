@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import '../providers/weather_provider.dart';
-import '../../domain/entity/weather.dart';
+import '../providers/K2600128_weather_provider.dart';
+import '../../domain/entity/K2600128_weather.dart';
 import 'package:weather_icons/weather_icons.dart';
 
 class CityDetailsScreen extends ConsumerWidget {

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:weather_application/features/weather/presentation/view/favourites_screen.dart';
-import 'package:weather_application/features/weather/presentation/view/settings_screen.dart';
-import '../providers/weather_provider.dart';
+import 'package:weather_application/features/weather/presentation/view/K2600128_favourites_screen.dart';
+import 'package:weather_application/features/weather/presentation/view/K2600128_settings_screen.dart';
+import '../providers/K2600128_weather_provider.dart';
 import 'package:weather_icons/weather_icons.dart';
-import 'search_screen.dart';
-import 'citydetails_screen.dart';
+import 'K2600128_search_screen.dart';
+import 'K2600128_citydetails_screen.dart';
 
 class HomeScreen extends ConsumerStatefulWidget {
   const HomeScreen({super.key});

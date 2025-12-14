@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import '../providers/settings_provider.dart';
-import '../providers/favouritesProvider.dart';
+import '../providers/K2600128_settings_provider.dart';
+import '../providers/K2600128_favouritesProvider.dart';
 class SettingsScreen extends ConsumerWidget {
   const SettingsScreen({super.key});
 

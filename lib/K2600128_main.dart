@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'features/weather/presentation/providers/settings_provider.dart';
-import 'features/weather/presentation/view/home_screen.dart';
+import 'features/weather/presentation/providers/K2600128_settings_provider.dart';
+import 'features/weather/presentation/view/K2600128_home_screen.dart';
 
 void main() {
   runApp(const ProviderScope(child: MyAppWrapper()));
